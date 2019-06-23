@@ -22,7 +22,7 @@
                 <input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password" v-model="passwd">
               </div>
               <div class="form-group login-group-checkbox">
-                <input type="checkbox" id="lg_remember" name="lg_remember">
+                <input type="checkbox" id="lg_remember" name="lg_remember" v-model="remember">
                 <label for="lg_remember">remember</label>
               </div>
             </div>
@@ -42,17 +42,22 @@
 <script>
 import { mapState, mapActions, mapMutations } from 'vuex'
 import firebase from '../firebase'
+import cookieFunc from '../assets/js/cookie.js'
 
 export default {
     created(){
-        console.log('created Login : ',this)
-            // if(this.$router.params.redirect)
-            //     this.rdirect = this.$router.params.redirect
+      console.log('created Login : ',this)
+        var uemail = cookieFunc.getCookie("uemail")
+        if(uemail) {
+          this.remember = true
+          this.email = uemail
+        } 
     },
     data(){
         return {
             email: '',
-            passwd: ''
+            passwd: '',
+            remember: false
         }
     },
     computed: { // data 미리 데이터에 대해 계산, 항상 결과값이 존재, 항상 주시, 판단하여 값을 반환
@@ -66,6 +71,14 @@ export default {
         ]),
         fireLogin(){
           firebase.login(this.email,this.passwd)
+          this.cookieSetter(this.remember)
+        },
+        cookieSetter(isCheck){
+          if(isCheck){
+            cookieFunc.setCookie("uemail", this.email, 1);
+          } else {
+            cookieFunc.deleteCookie("uemail");
+          }
         }
         
     }

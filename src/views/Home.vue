@@ -98,7 +98,7 @@
   @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
 
   .hooper-slide {
-    background-color: #62cccc;
+    background-color: #c9c9c9;
     padding: 20px;
     display: flex;
     justify-content: center;

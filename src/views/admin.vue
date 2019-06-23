@@ -51,7 +51,7 @@ export default {
             var emotion = new Array(8).fill(0);
             
             // localhost or myIP
-            axios.post('http://192.168.0.7:3003/analysis/findrec',data).then(x=>{
+            axios.post('http://localhost:3003/analysis/findrec',data).then(x=>{
                 Array.from(x.data).forEach((res)=>{
                     emotion[0]+=res.angry
                     emotion[1]+=res.sad

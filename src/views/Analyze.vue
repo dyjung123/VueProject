@@ -114,7 +114,7 @@ export default {
     },
     mounted() {
         var self = this // eventListener안에서 this는 listener가 부착된 element를 가리킴
-
+		
         document.querySelector(".col").addEventListener("dragover", function (e) {
             e.preventDefault();
         });

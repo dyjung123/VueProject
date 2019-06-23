@@ -17,11 +17,12 @@ a:hover {
   padding: 10px 20px;
 }
 .etc-login-form p {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: large;
 }
 /*=== 4. Main Form ===*/
 .login-form-1 {
-  min-width: 500px;
+  min-width: 300px;
   max-width: 600px;
   border-radius: 5px;
   display: inline-block;
@@ -263,7 +264,7 @@ label:hover:before {
 /*=== 9. Misc ===*/
 .logo {
   padding: 15px 0;
-  font-size: 25px;
+  font-size: 40px;
   color: #aaaaaa;
   font-weight: bold;
 }
