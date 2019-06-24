@@ -43,12 +43,12 @@
 </template>
 
 <script>
-import ProcessImage from '../aws'
-import DragDrop from './Drag_Drop.vue'
-import Graph from './Result.vue'
-import fire from '../firebase'
+import ProcessImage from '../../aws'
+import DragDrop from '../test/Drag_Drop.vue'
+import Graph from '../component/Result.vue'
+import fire from '../../firebase'
 import firebase from 'firebase'
-import Loading from './loading'
+import Loading from '../component/loading'
 import { mapActions ,mapState } from 'vuex'
 
 export default {

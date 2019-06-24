@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Analyze from '../views/Analyze.vue'
-import Lastresult from '../views/Lastresult.vue'
-import Home from '../views/Home.vue'
-import Login from '../views/Login.vue'
-import Signup from '../views/Signup.vue'
-import DRAG_DROP from '../views/Drag_Drop.vue'
-import Admin from '../views/admin.vue'
+import Analyze from '../views/view/Analyze.vue'
+import Lastresult from '../views/view/Lastresult.vue'
+import Home from '../views/view/Home.vue'
+import Login from '../views/view/Login.vue'
+import Signup from '../views/view/Signup.vue'
+import DRAG_DROP from '../views/test/Drag_Drop.vue'
+import Admin from '../views/test/admin.vue'
 
 Vue.use(VueRouter)
 

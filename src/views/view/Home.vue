@@ -1,7 +1,7 @@
 <template>
   <div>
     
-    <img class="logo mainlogo" src="../assets/img/weblogo.png">
+    <img class="logo mainlogo" src="../../assets/img/weblogo.png">
 
     <hooper :progress="true" :autoPlay="true" :playSpeed="2000" style="height: 400px" :centerMode="true" :wheelControl="false">
       <slide>
@@ -25,24 +25,24 @@
     <div class="toollist">
       <div class="row">
         <div class="col-xs-4">
-            <img class="logo" src="../assets/img/AWS.png">
+            <img class="logo" src="../../assets/img/AWS.png">
         </div>
         <div class="col-xs-4">
-            <img class="logo" src="../assets/img/bootstrap.png">
+            <img class="logo" src="../../assets/img/bootstrap.png">
         </div>
         <div class="col-xs-4">
-            <img class="logo" src="../assets/img/express.png">
+            <img class="logo" src="../../assets/img/express.png">
         </div>
       </div>
       <div class="row">
         <div class="col-xs-4">
-            <img class="logo" src="../assets/img/firebase.png">
+            <img class="logo" src="../../assets/img/firebase.png">
         </div>
         <div class="col-xs-4">
-            <img class="logo" src="../assets/img/node.png">
+            <img class="logo" src="../../assets/img/node.png">
         </div>
         <div class="col-xs-4">
-            <img class="logo" src="../assets/img/vue.png">
+            <img class="logo" src="../../assets/img/vue.png">
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@
 </script>
 
 <style>
-  @import '../assets/css/hooper.css';
+  @import '../../assets/css/hooper.css';
   @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
 
   .hooper-slide {
@@ -200,7 +200,7 @@
           rgba(0, 0, 0, 0.4), 
           rgba(0, 0, 0, 0.4)
         ),
-        url("../assets/img/signupbg.jpg");
+        url("../../assets/img/signupbg.jpg");
 }
 
 .macbook {
@@ -208,7 +208,7 @@
           rgba(0, 0, 0, 0.4), 
           rgba(0, 0, 0, 0.4)
         ),
-        url("../assets/img/macbookbg.jpg");
+        url("../../assets/img/macbookbg.jpg");
 }
 
 .emotion {
@@ -216,7 +216,7 @@
           rgba(0, 0, 0, 0.4), 
           rgba(0, 0, 0, 0.4)
         ),
-        url("../assets/img/emotionbg.jpg");
+        url("../../assets/img/emotionbg.jpg");
 }
 
 .chart {
@@ -224,6 +224,6 @@
           rgba(0, 0, 0, 0.4), 
           rgba(0, 0, 0, 0.4)
         ),
-        url("../assets/img/chartbg.jpg");
+        url("../../assets/img/chartbg.jpg");
 }
 </style>

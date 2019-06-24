@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import navbar from './views/nav'
-import loading from './views/loading'
+import navbar from './views/component/nav.vue'
+import loading from './views/component/loading.vue'
 import firebase from './firebase'
 import aws from './aws'
 import { mapState, mapActions } from 'vuex'

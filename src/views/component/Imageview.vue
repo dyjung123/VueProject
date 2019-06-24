@@ -13,7 +13,7 @@
 <script>
 import firebase from 'firebase'
 import { mapActions } from 'vuex'
-import Loading from './loading'
+import Loading from './loading.vue'
 
 export default {
     components: {
@@ -206,5 +206,5 @@ export default {
 </script>
 
 <style>
-@import '../assets/css/gallery.css';
+@import '../../assets/css/gallery.css';
 </style>

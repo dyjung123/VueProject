@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import ProcessImage from '../aws'
+import ProcessImage from '../../aws'
 export default {
     data(){
         return{

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import graphRender from '../assets/js/graph'
+import graphRender from '../../assets/js/graph'
 import firebase from 'firebase'
 import { mapActions } from 'vuex'
 

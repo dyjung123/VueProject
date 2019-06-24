@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import firebase from '../firebase'
+import firebase from '../../firebase'
 import { mapActions } from 'vuex';
 
 export default {
@@ -66,5 +66,5 @@ export default {
 </script>
 
 <style>
-/* @import '../assets/css/boot.css'; */
+/* @import '../../assets/css/boot.css'; */
 </style>

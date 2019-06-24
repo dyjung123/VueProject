@@ -28,5 +28,5 @@
 </script>
 
 <style>
-@import '../assets/css/gallery.css';
+@import '../../assets/css/gallery.css';
 </style>

@@ -41,8 +41,8 @@
 
 <script>
 import { mapState, mapActions, mapMutations } from 'vuex'
-import firebase from '../firebase'
-import cookieFunc from '../assets/js/cookie.js'
+import firebase from '../../firebase'
+import cookieFunc from '../../assets/js/cookie.js'
 
 export default {
     created(){
@@ -86,5 +86,5 @@ export default {
 </script>
 
 <style>
-/* @import '../assets/css/boot.css'; */
+/* @import '../../assets/css/boot.css'; */
 </style>
