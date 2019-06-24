@@ -5,19 +5,15 @@
 
     <hooper :progress="true" :autoPlay="true" :playSpeed="2000" style="height: 400px" :centerMode="true" :wheelControl="false">
       <slide>
-        <!-- <img src="../assets/img/signupbg.jpg" width="100%" overflow="hidden"> -->
         <div class="signup bg"></div>
       </slide>
       <slide>
-        <!-- <img src="../assets/img/macbookbg.jpg" width="100%"> -->
         <div class="macbook bg"></div>
       </slide>
       <slide>
-        <!-- <img src="../assets/img/emotionbg.jpg" width="100%"> -->
         <div class="emotion bg"></div>
       </slide>
       <slide>
-        <!-- <img src="../assets/img/chartbg.jpg" width="100%"> -->
         <div class="chart bg"></div>
       </slide>
     </hooper>

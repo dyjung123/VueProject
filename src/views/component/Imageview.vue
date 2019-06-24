@@ -16,6 +16,9 @@ import { mapActions } from 'vuex'
 import Loading from './loading.vue'
 
 export default {
+    props: {
+		  moreLoadReq: { type: Boolean, default: () => false }
+	  },
     components: {
       Loading
     },
@@ -139,6 +142,9 @@ export default {
           if (val) {
             this.buildGrid(this.filteredProjects)
           }
+        },
+        moreLoadReq(val, oldval) {
+          console.log('moreLoadReq')
         }
     },
     methods: {

@@ -12,7 +12,7 @@
       <a href="#" data-group="SURPRISED">SURPRISED</a>
     </div>
 
-    <Imageview />
+    <Imageview :moreLoadReq="scrolledToBottom"/>
   </div>
 </template>
 
@@ -20,8 +20,39 @@
   import Imageview from './Imageview.vue'
 
   export default {
+    data() {
+      return {
+        scrolledToBottom: false,
+        eventDistanceFromBottom: 150 // 바텀으로부터 이 높이에서 이벤트 발동
+      }
+    },
     components: {
       Imageview
+    },
+    mounted() {
+      window.addEventListener('scroll', this.detectScroll)
+    },
+    destroyed() {
+      window.removeEventListener('scroll', this.detectScroll);
+    },
+    watch: {
+      scrolledToBottom(val, oldval) {
+        this.moreLoadImg()
+      }
+    },
+    methods: {
+      detectScroll() {
+        var pageTopToScrollTop = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop) 
+        let bottomOfWindow = pageTopToScrollTop + window.innerHeight > document.documentElement.offsetHeight - this.eventDistanceFromBottom
+
+        if (bottomOfWindow) {
+          console.log('scroll')
+          this.scrolledToBottom = true // replace it with your code
+        }
+      },
+      moreLoadImg() {
+        console.log('moreLoad')
+      }
     }
   }
 
