@@ -11,11 +11,6 @@
             <tab id="Half" name="Half">
                 <TotalChart class="Half" mid="chartContainer3" @init-chart="attachEvent($event, '#Half')"/>
             </tab>
-            <!-- <tab prefix="<span class='glyphicon glyphicon-star'></span> " 
-                 name="Prefix and suffix" 
-                 suffix=" <span class='badge'>4</span>">
-                A prefix and a suffix can be added
-            </tab> -->
         </tabs>
     </div>
 </template>

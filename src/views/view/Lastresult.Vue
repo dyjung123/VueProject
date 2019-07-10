@@ -6,9 +6,9 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import TabMenu from '../component/TabMenu.vue'
 import Imagelist from '../component/Imagelist.vue'
-import { mapState } from 'vuex'
 
 export default {
     components: {

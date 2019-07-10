@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div :id="mid" style="height: 300px; width: 100%;"></div>
+		<div class="totalChart" :id="mid" style="width: 100%;"></div>
 	</div>
 </template>
 
@@ -169,5 +169,13 @@ export default {
 </script>
 
 <style>
+.totalChart {
+  height: 350px;
+}
 
+@media (min-width: 865px) {
+	.totalChart {
+    height: 450px;
+	}
+}
 </style>
