@@ -24,15 +24,15 @@
   <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62054532-bda1b800-b254-11e9-9582-2b33666ecafb.jpg">
 </div>
 
-## 후쿠오카 은행 채용건 - 
-### 일본어
+## 福岡銀行採用件 履歴書
+### 日本語
 <div>
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62045976-d18fee80-b241-11e9-8df4-692bb47e1233.jpg">
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62045977-d18fee80-b241-11e9-88cc-b45743989e3a.jpg">
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62045978-d18fee80-b241-11e9-8414-1c010b313d6f.jpg">
 </div>
 
-### 한국어
+### 韓国語
 <div>
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62045980-d2288500-b241-11e9-85bf-f269b516fb4e.jpg">
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62045981-d2288500-b241-11e9-8a7a-cd8c81c8cdd2.jpg">
