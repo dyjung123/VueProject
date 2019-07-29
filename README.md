@@ -6,22 +6,22 @@
 ## 스크린샷
 ### Desktop
 <div>
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053650-ffc9fa00-b252-11e9-8772-a1f4270a0289.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053891-7e269c00-b253-11e9-836f-3418ce31bd20.jpg">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053649-ff316380-b252-11e9-8f0f-1ebb3daa1853.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053648-ff316380-b252-11e9-872f-c4760093ca2d.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053645-fe98cd00-b252-11e9-8aa7-4cdc24dc36c6.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053643-fe98cd00-b252-11e9-97b5-47a13c5aaa95.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053639-fe003680-b252-11e9-9b38-ecb772e3f68c.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053650-ffc9fa00-b252-11e9-8772-a1f4270a0289.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053891-7e269c00-b253-11e9-836f-3418ce31bd20.jpg">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053649-ff316380-b252-11e9-8f0f-1ebb3daa1853.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053648-ff316380-b252-11e9-872f-c4760093ca2d.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053645-fe98cd00-b252-11e9-8aa7-4cdc24dc36c6.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053643-fe98cd00-b252-11e9-97b5-47a13c5aaa95.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053639-fe003680-b252-11e9-9b38-ecb772e3f68c.png">
 </div>
 
 ### Mobile
 <div>
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053646-ff316380-b252-11e9-9bfc-d315e267f365.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053641-fe98cd00-b252-11e9-804c-caa050f42f54.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053640-fe003680-b252-11e9-89dc-d76520749de8.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053636-fd67a000-b252-11e9-9bd2-503d1969a5a4.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62054532-bda1b800-b254-11e9-9582-2b33666ecafb.jpg">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053646-ff316380-b252-11e9-9bfc-d315e267f365.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053641-fe98cd00-b252-11e9-804c-caa050f42f54.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053640-fe003680-b252-11e9-89dc-d76520749de8.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053636-fd67a000-b252-11e9-9bd2-503d1969a5a4.png">
+  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62054532-bda1b800-b254-11e9-9582-2b33666ecafb.jpg">
 </div>
 
 ## 후쿠오카 은행 채용건 - 
