@@ -23,24 +23,9 @@
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62053636-fd67a000-b252-11e9-9bd2-503d1969a5a4.png">
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62053635-fccf0980-b252-11e9-84d9-3ad8e1c746f6.png">
 </div>
-![localhost_8080_lastresult(iPhone X) (4)](https://user-images.githubusercontent.com/28843986/62053635-fccf0980-b252-11e9-84d9-3ad8e1c746f6.png)
-![localhost_8080_lastresult(iPhone X) (3)](https://user-images.githubusercontent.com/28843986/62053636-fd67a000-b252-11e9-9bd2-503d1969a5a4.png)
-![localhost_8080_lastresult (6)](https://user-images.githubusercontent.com/28843986/62053639-fe003680-b252-11e9-9b38-ecb772e3f68c.png)
-![localhost_8080_lastresult(iPhone X) (2)](https://user-images.githubusercontent.com/28843986/620536
-![localhost_8080_lastresult (1)](https://user-images.githubusercontent.com/28843986/62053891-7e269c00-b253-11e9-836f-3418ce31bd20.jpg)
-40-fe003680-b252-11e9-89dc-d76520749de8.png)
-![localhost_8080_lastresult(iPhone X) (1)](https://user-images.githubusercontent.com/28843986/62053641-fe98cd00-b252-11e9-804c-caa050f42f54.png)
-![localhost_8080_lastresult (5)](https://user-images.githubusercontent.com/28843986/62053643-fe98cd00-b252-11e9-97b5-47a13c5aaa95.png)
-![localhost_8080_lastresult (4)](https://user-images.githubusercontent.com/28843986/62053645-fe98cd00-b252-11e9-8aa7-4cdc24dc36c6.png)
-![localhost_8080_lastresult(iPhone X)](https://user-images.githubusercontent.com/28843986/62053646-ff316380-b252-11e9-9bfc-d315e267f365.png)
-![localhost_8080_lastresult (3)](https://user-images.githubusercontent.com/28843986/62053648-ff316380-b252-11e9-872f-c4760093ca2d.png)
-![localhost_8080_lastresult (2)](https://user-images.githubusercontent.com/28843986/62053649-ff316380-b252-11e9-8f0f-1ebb3daa1853.png)
 
-![localhost_8080_lastresult](https://user-images.githubusercontent.com/28843986/62053650-ffc9fa00-b252-11e9-8772-a1f4270a0289.png)
-
-
-## 후쿠오카 은행 채용건
-### 
+## 후쿠오카 은행 채용건 - 
+### 일본어
 <div>
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62045976-d18fee80-b241-11e9-8df4-692bb47e1233.jpg">
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62045977-d18fee80-b241-11e9-88cc-b45743989e3a.jpg">
