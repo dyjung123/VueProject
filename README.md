@@ -6,13 +6,13 @@
 ## 스크린샷
 ### Desktop
 <div>
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053650-ffc9fa00-b252-11e9-8772-a1f4270a0289.png">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053891-7e269c00-b253-11e9-836f-3418ce31bd20.jpg">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053649-ff316380-b252-11e9-8f0f-1ebb3daa1853.png">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053648-ff316380-b252-11e9-872f-c4760093ca2d.png">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053645-fe98cd00-b252-11e9-8aa7-4cdc24dc36c6.png">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053643-fe98cd00-b252-11e9-97b5-47a13c5aaa95.png">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053639-fe003680-b252-11e9-9b38-ecb772e3f68c.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053650-ffc9fa00-b252-11e9-8772-a1f4270a0289.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053891-7e269c00-b253-11e9-836f-3418ce31bd20.jpg">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053649-ff316380-b252-11e9-8f0f-1ebb3daa1853.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053648-ff316380-b252-11e9-872f-c4760093ca2d.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053645-fe98cd00-b252-11e9-8aa7-4cdc24dc36c6.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053643-fe98cd00-b252-11e9-97b5-47a13c5aaa95.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053639-fe003680-b252-11e9-9b38-ecb772e3f68c.png">
 </div>
 
 ### Mobile
