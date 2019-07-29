@@ -21,7 +21,7 @@
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62053641-fe98cd00-b252-11e9-804c-caa050f42f54.png">
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62053640-fe003680-b252-11e9-89dc-d76520749de8.png">
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62053636-fd67a000-b252-11e9-9bd2-503d1969a5a4.png">
-  <img width="200" src="https://user-images.githubusercontent.com/28843986/62053635-fccf0980-b252-11e9-84d9-3ad8e1c746f6.png">
+  <img width="200" src="https://user-images.githubusercontent.com/28843986/62054532-bda1b800-b254-11e9-9582-2b33666ecafb.jpg">
 </div>
 
 ## 후쿠오카 은행 채용건 - 
