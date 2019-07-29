@@ -17,11 +17,11 @@
 
 ### Mobile
 <div>
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053646-ff316380-b252-11e9-9bfc-d315e267f365.png">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053641-fe98cd00-b252-11e9-804c-caa050f42f54.png">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053640-fe003680-b252-11e9-89dc-d76520749de8.png">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62053636-fd67a000-b252-11e9-9bd2-503d1969a5a4.png">
-  <img width="200" vertical-align="top" src="https://user-images.githubusercontent.com/28843986/62054532-bda1b800-b254-11e9-9582-2b33666ecafb.jpg">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053646-ff316380-b252-11e9-9bfc-d315e267f365.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053641-fe98cd00-b252-11e9-804c-caa050f42f54.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053640-fe003680-b252-11e9-89dc-d76520749de8.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62053636-fd67a000-b252-11e9-9bd2-503d1969a5a4.png">
+  <img width="200" align="top" src="https://user-images.githubusercontent.com/28843986/62054532-bda1b800-b254-11e9-9582-2b33666ecafb.jpg">
 </div>
 
 ## 후쿠오카 은행 채용건 - 
