@@ -1,6 +1,6 @@
 # Today Face - 졸업 작품 과제
 ## 후쿠오카 은행 채용건
-### 한국어
+### 
 <div>
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62045976-d18fee80-b241-11e9-8df4-692bb47e1233.jpg">
   <img width="200" src="https://user-images.githubusercontent.com/28843986/62045977-d18fee80-b241-11e9-88cc-b45743989e3a.jpg">
