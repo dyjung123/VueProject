@@ -1,7 +1,7 @@
 import axios from 'axios'
 
+// const DOMAIN = process.env.NODE_ENV=='development'?'http://localhost:3003':'http://localhost:8080'
 const DOMAIN = 'http://localhost:3003'
-// const DOMAIN = 'http://localhost:8080'
 
 const request = (method,url,data) =>{
   // axios 라이브러리 :  https://github.com/axios/axios#example

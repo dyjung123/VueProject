@@ -40,10 +40,9 @@ export default {
     },
     watch: {
       category(val, oldval) {
-        console.log('change category',val)
-        this.initImgurls().then(() => {
-          this.fetchImgLinks(this.imageurls)
-        })
+        this.offset = 0
+        this.imageurls = []
+        this.fetchImgLinks(this.imageurls)
       }
     },
     methods: {
@@ -51,36 +50,15 @@ export default {
             'FETCH_IMAGELINKS'
       ]),
       fetchImgLinks(imgurls) { // parameter type is list
-        if (!this.running) {
-          this.running = true
-          this.FETCH_IMAGELINKS({'uid': firebase.auth().currentUser.uid, 'category': this.category, 'limit': this.limit, 'offset': this.offset}).then(res => {
+         const nPromise = async ()=>{
             this.offset += this.limit
+            var res = await this.FETCH_IMAGELINKS({'uid': firebase.auth().currentUser.uid, 'category': this.category, 'limit': this.limit, 'offset': this.offset - this.limit})
             imgurls.push(...res)
-            console.log('res',res)
-          }).then(() => {
-            this.running = false
-          }).catch(res=>{
-		        console.log(res)
-            alert("ERROR "+res)
-          })
-        }
+          }
+         return nPromise()
       },
       scrollEvt() {
-        console.log("scrollEvt")
         this.fetchImgLinks(this.imageurls)
-      },
-      initImgurls() {
-        var self = this
-        return new Promise(function(resolve, reject) {
-          try {
-            self.offset = 0
-            self.imageurls = []
-            console.log('init Imgurls',self.imageurls)
-            resolve(self.imageurls)
-          } catch (error) {
-            reject(error)
-          }
-        })
       }
     }
 }
