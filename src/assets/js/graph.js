@@ -1,4 +1,4 @@
-// import * as CanvasJS from 'canvasjs';
+// import CanvasJS from 'canvasjs'
 var graphRender = {}
 
 graphRender.create = function(id,config) {

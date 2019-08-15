@@ -10,6 +10,7 @@
         <a href="#" :class="[category == 'DISGUSTED' ? 'active' : '']" @click.prevent="clickCategory" data-group="DISGUSTED">DISGUSTED</a>
         <a href="#" :class="[category == 'CONFUSED' ? 'active' : '']" @click.prevent="clickCategory" data-group="CONFUSED">CONFUSED</a>
         <a href="#" :class="[category == 'SURPRISED' ? 'active': '']" @click.prevent="clickCategory" data-group="SURPRISED">SURPRISED</a>
+        <a href="#" :class="[category == 'FEAR' ? 'active': '']" @click.prevent="clickCategory" data-group="FEAR">FEAR</a>
       </div>
     </div>
     <Grid :category="category"/>

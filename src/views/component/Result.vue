@@ -22,63 +22,69 @@ export default {
     data() {
         return {
             roundGraphData: [{ 
-                  y: 45.16,
-                  exploded: true,
-                  indexLabel: "default1",
-                  color: "#1f77b4"
-                }, {
-                  y: 18.8,
-                  indexLabel: "default2",
-                  color: "#ff7f0e"
-                }, {
-                  y: 18.45,
-                  indexLabel: "default3",
-                  color: " #ffbb78"
-                }, {
-                  y: 5.56,
-                  indexLabel: "default4",
-                  color: "#d62728"
-                }, {
-                  y: 5.38,
-                  indexLabel: "default5",
-                  color: "#98df8a"
-                }, {
-                  y: 3.73,
-                  indexLabel: "default6",
-                  color: "#bcbd22"
-                }, {
-                  y: 2.92,
-                  indexLabel: "default7",
-                  color: "#f7b6d2"
+                y: 45.16,
+                exploded: true,
+                label: "default1",
+                color: "#1f77b4"
+              }, {
+                y: 18.8,
+                label: "default2",
+                color: "#ff7f0e"
+              }, {
+                y: 18.45,
+                label: "default3",
+                color: " #ffbb78"
+              }, {
+                y: 5.56,
+                label: "default4",
+                color: "#d62728"
+              }, {
+                y: 5.38,
+                label: "default5",
+                color: "#98df8a"
+              }, {
+                y: 3.73,
+                label: "default6",
+                color: "#bcbd22"
+              }, {
+                y: 2.92,
+                label: "default7",
+                color: "#f7b6d2"
+              }, {
+                y: 1.23,
+                label: "default8"
             }],
             barGraphData: [{
-                  y: 400.04,
-                  label: "default1",
-                  color: "#1f77b4"
-                }, {
-                  y: 381.84,
-                  label: "default2",
-                  color: "#ff7f0e"
-                }, {
-                  y: 375.76,
-                  label: "default3",
-                  color: " #ffbb78"
-                }, {
-                  y: 97.48,
-                  label: "default4",
-                  color: "#d62728"
-                }, {
-                  y: 94.2,
-                  label: "default5",
-                  color: "#98df8a"
-                }, {
-                  y: 65.28,
-                  label: "default6",
-                  color: "#bcbd22"
-                }, {
-                  y: 51.2,
-                  label: "default7",
-                  color: "#f7b6d2"
+                y: 400.04,
+                label: "default1",
+                color: "#1f77b4"
+              }, {
+                y: 381.84,
+                label: "default2",
+                color: "#ff7f0e"
+              }, {
+                y: 375.76,
+                label: "default3",
+                color: " #ffbb78"
+              }, {
+                y: 97.48,
+                label: "default4",
+                color: "#d62728"
+              }, {
+                y: 94.2,
+                label: "default5",
+                color: "#98df8a"
+              }, {
+                y: 65.28,
+                label: "default6",
+                color: "#bcbd22"
+              }, {
+                y: 51.2,
+                label: "default7",
+                color: "#f7b6d2"
+              }, {
+                y: 12.2,
+                label: "default8"
             }]
         }
     },
@@ -107,12 +113,11 @@ export default {
       updateGraphData(data) {
           var emotion = data.FaceDetails[0].Emotions
           console.log('result : ',data.FaceDetails[0].Emotions)
-          console.log('graphData : ',this.roundGraphData)
-          for (var i = 0; i < emotion.length; i++) { 
-              this.roundGraphData[i].indexLabel = emotion[i].Type
-              this.barGraphData[i].label = emotion[i].Type
-              this.roundGraphData[i].y = emotion[i].Confidence
-              this.barGraphData[i].y = emotion[i].Confidence
+          for (var i = 0; i < emotion.length; i++) {
+            this.roundGraphData[i].label = emotion[i].Type
+            this.barGraphData[i].label = emotion[i].Type
+            this.roundGraphData[i].y = emotion[i].Confidence
+            this.barGraphData[i].y = emotion[i].Confidence
           }
       },
       renderPieChart(values) {

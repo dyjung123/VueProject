@@ -38,17 +38,16 @@ export default {
 				legend: {
 					cursor: "pointer",
 					itemmouseover: function(e) {
-						e.dataSeries.lineThickness = e.chart.options.data[e.dataSeriesIndex].lineThickness * 2;
-						e.dataSeries.markerSize = e.chart.options.data[e.dataSeriesIndex].markerSize + 2;
+						e.dataSeries.lineThickness = e.chart.data[e.dataSeriesIndex].lineThickness * 2;
+						e.dataSeries.markerSize = e.chart.data[e.dataSeriesIndex].markerSize + 2;
 						e.chart.render();
 					},
 					itemmouseout: function(e) {
-						e.dataSeries.lineThickness = e.chart.options.data[e.dataSeriesIndex].lineThickness / 2;
-						e.dataSeries.markerSize = e.chart.options.data[e.dataSeriesIndex].markerSize - 2;
+						e.dataSeries.lineThickness = e.chart.data[e.dataSeriesIndex].lineThickness / 2;
+						e.dataSeries.markerSize = e.chart.data[e.dataSeriesIndex].markerSize - 2;
 						e.chart.render();
 					},
 					itemclick: function (e) {
-						console.log("e : ",e)
 						if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
 							e.dataSeries.visible = false;
 						} else {
@@ -62,7 +61,7 @@ export default {
 				}
 			},
 			gData: {data:[]},
-			dataCategory: ['happy','angry','sad','calm','disgusted','surprised','confused','confidence'],
+			dataCategory: ['happy','angry','sad','calm','disgusted','surprised','confused','fear','confidence'],
 			term: 7
 		}
 	},
@@ -88,36 +87,6 @@ export default {
 	
 	},
 	mounted() {
-		// const dataCategory = ['happy','angry','sad','calm','disgusted','surprised','confused','confidence']
-		// var gData = {data:[]}
-		// for (var i=0; i<dataCategory.length; i++) {
-		// 	gData.data.push({
-		// 		type: "spline",
-		// 		name: dataCategory[i].toUpperCase(),
-		// 		markerSize: 5,
-    	// 	  	axisYType: "secondary",
-		// 		xValueFormatString: "YYYY-MM-DD",
-		// 		yValueFormatString: "#,##0.0\"%\"",
-		// 		showInLegend: true,
-		// 		dataPoints: []
-		// 	})
-		// }
-
-		// this.FETCH_AVGDATA({term: 7, uid: firebase.auth().currentUser.uid}).then(x => {
-		// 	x.forEach(result => {
-
-		// 		var year = parseInt(result.createDate.substring(0,4))
-		// 		var month = parseInt(result.createDate.substring(5,7))
-		// 		var day = parseInt(result.createDate.substring(8))
-		// 		for (var i=0; i<dataCategory.length; i++) {
-		// 			gData.data[i].dataPoints.push({ x: new Date(year, month, day), y: result[dataCategory[i]+'avg'] })
-		// 		}
-		// 	})
-		// }).catch(res=>{
-		// 	console.log(res)
-      	// 	alert("ERROR "+res)
-		// })
-		
 		this.$nextTick(() => {
 			console.log('this.mid : ',this.mid)
 			switch (this.mid) {
