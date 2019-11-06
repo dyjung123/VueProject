@@ -38,11 +38,13 @@ export default {
 				legend: {
 					cursor: "pointer",
 					itemmouseover: function(e) {
+						console.log("e.chart",e.chart)
 						e.dataSeries.lineThickness = e.chart.data[e.dataSeriesIndex].lineThickness * 2;
 						e.dataSeries.markerSize = e.chart.data[e.dataSeriesIndex].markerSize + 2;
 						e.chart.render();
 					},
 					itemmouseout: function(e) {
+						console.log("e.chart",e.chart)
 						e.dataSeries.lineThickness = e.chart.data[e.dataSeriesIndex].lineThickness / 2;
 						e.dataSeries.markerSize = e.chart.data[e.dataSeriesIndex].markerSize - 2;
 						e.chart.render();

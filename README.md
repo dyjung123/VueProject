@@ -1,6 +1,6 @@
-# Today Face - 졸업 작품 과제 (卒業作品)
+# My look of the day - 졸업 작품 과제 (卒業作品)
 ## YouTube Link
-> today face
+> My look of the day
 [YouTube](https://www.youtube.com/watch?v=n3lXkjVk9I4&list=LLH8T6YlGhUaTF0VGBQkJnbA&index=2&t=45s)
 
 ## Screen Shot

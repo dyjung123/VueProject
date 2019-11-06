@@ -53,7 +53,6 @@
             <a href='#'><i class="fa fa-linkedin fa-2x fa-fw"></i></a>
       </div>
     </div>
-
   </div>
 </template>
 

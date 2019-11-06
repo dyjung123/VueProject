@@ -3,7 +3,7 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
-                <a class="navbar-brand" v-on:click.prevent="GOPAGE('/')">Today Face</a>
+                <a class="navbar-brand" v-on:click.prevent="GOPAGE('/')">My look of the day</a>
                 </div>
                 <ul class="nav navbar-nav">
                 <li class="navcon" :class="{ active : isHomeView }">
