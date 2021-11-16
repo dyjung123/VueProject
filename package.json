@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "aws-sdk": "^2.479.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.19.0",
     "babel-polyfill": "^6.26.0",
     "firebase": "^6.2.1",
